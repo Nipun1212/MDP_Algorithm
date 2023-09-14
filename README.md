@@ -1,4 +1,4 @@
-# MDP_Algorithm
+# MDP Algorithm
 Autonomous Robot Navigation Algorithms
 This repository contains the Java algorithms I developed for enabling efficient navigation of an autonomous robot through mazes during an 8-week Multidisciplinary Design Project.
 
