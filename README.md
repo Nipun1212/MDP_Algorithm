@@ -28,19 +28,19 @@ The high level flow is:
 # Usage
 The main method in AStarSearch shows sample usage:
 
-Create a Map instance and add obstacles
-Create a AStarSearch instance with the Map
-Call findPath() by passing start and end positions
-Get the path list containing nodes from start to goal
+1) Create a Map instance and add obstacles
+2) Create a AStarSearch instance with the Map
+3) Call findPath() by passing start and end positions
+4) Get the path list containing nodes from start to goal
 
 # Robot Integration
 The algorithm code was integrated with the robot's hardware and software systems:
 
-Raspberry Pi server running the motor control program
-Motor control circuits to enable directional driving of the wheels
-Ultrasonic and infrared sensors to detect obstacles
-Camera for vision and image processing tasks
-Extensive testing was done to refine the algorithms before the final maze navigation challenge. The optimized navigation logic allowed the robot to quickly traverse unknown mazes with 100% accuracy, leading to a 2nd place among over 270 teams.
+* Raspberry Pi server running the motor control program
+* Motor control circuits to enable directional driving of the wheels
+* Ultrasonic and infrared sensors to detect obstacles
+* Camera for vision and image processing tasks
+* Extensive testing was done to refine the algorithms before the final maze navigation challenge. The optimized navigation logic allowed the robot to quickly traverse unknown mazes with 100% accuracy, leading to a 2nd place among over 270 teams.
 
 # Usage
 The Java files are well documented for understanding the core logic and integration. Key areas to review:
