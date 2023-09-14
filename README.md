@@ -16,13 +16,13 @@ The core path planning algorithm is implemented in Java based on A* search to fi
 # Flow
 The high level flow is:
 
-Initialize the grid Map with obstacles
-Add the start node to the open list
-Loop until open list is empty:
-Remove the node with lowest fCost from open list
-Check if it is the goal node, if yes reconstruct path
-Else expand its neighbors, calculate costs and add valid ones to open list
-Reconstruct optimal path by traversing parent nodes
+1) Initialize the grid Map with obstacles
+2) Add the start node to the open list
+3) Loop until open list is empty:
+    * Remove the node with lowest fCost from open list
+    * Check if it is the goal node, if yes reconstruct path
+    * Else expand its neighbors, calculate costs and add valid ones to open list
+4) Reconstruct optimal path by traversing parent nodes
 
 
 # Usage
