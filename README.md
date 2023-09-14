@@ -11,7 +11,9 @@ Node.java - Represents a node on the grid map, containing coordinates, parent no
 Map.java - Handles the grid representation and obstacle positions. Provides method to check if a node is valid.
 Heuristic.java - Calculates the heuristic cost between two node positions using the Manhattan distance.
 Path.java - Reconstructs the final path after reaching the goal by traversing back using parent node pointers.
-Flow
+
+
+# Flow
 The high level flow is:
 
 Initialize the grid Map with obstacles
