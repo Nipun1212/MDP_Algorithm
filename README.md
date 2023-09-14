@@ -45,5 +45,5 @@ The algorithm code was integrated with the robot's hardware and software systems
 # Usage
 The Java files are well documented for understanding the core logic and integration. Key areas to review:
 
-Astar folder - Implements optimized depth-first search and can be modified to account for thr various turns thre robot makes
-Server folder - Communicates with the Raspberry Pi server and initialises the server
+* Astar folder - Implements optimized depth-first search and can be modified to account for thr various turns thre robot makes 
+* Server folder - Communicates with the Raspberry Pi server and initialises the server
