@@ -6,11 +6,11 @@ This repository contains the Java algorithms I developed for enabling efficient 
 The core path planning algorithm is implemented in Java based on A* search to find the shortest path between the start and goal positions, avoiding obstacles.
 
 ## Key Components
-AStarSearch.java - Contains the main A* search logic including computing the open and closed lists, selecting the next node, calculating heuristics etc.
-Node.java - Represents a node on the grid map, containing coordinates, parent node reference, cost values etc.
-Map.java - Handles the grid representation and obstacle positions. Provides method to check if a node is valid.
-Heuristic.java - Calculates the heuristic cost between two node positions using the Manhattan distance.
-Path.java - Reconstructs the final path after reaching the goal by traversing back using parent node pointers.
+* AStarSearch.java - Contains the main A* search logic including computing the open and closed lists, selecting the next node, calculating heuristics etc.
+* Node.java - Represents a node on the grid map, containing coordinates, parent node reference, cost values etc.
+* Map.java - Handles the grid representation and obstacle positions. Provides method to check if a node is valid.
+* Heuristic.java - Calculates the heuristic cost between two node positions using the Manhattan distance.
+* Path.java - Reconstructs the final path after reaching the goal by traversing back using parent node pointers.
 
 
 # Flow
